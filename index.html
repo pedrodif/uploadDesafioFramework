@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <title>Desafio Framework</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/icon_logo.png" type="image/x-icon">
+
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    
+    <main>
+        <div class="topo">
+            <div class="topoimg">
+                <img src="imgs/icon_logo.png" alt="logo" class="logo">
+            </div>
+
+
+            <div class="titulo">
+                <h1>Consulta Rápida</h1>
+            </div>
+        </div>
+
+        <!-- <hr> -->
+
+        <nav class="menu">
+            <ul>
+                <div class="btn1"><li class="op1">POSTAGENS</li></div>
+                <div class="btn2"><li class="op2">ÁLBUNS</li></div>
+                <div class="btn3"><li class="op3">TO-DOs</li></div>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <table class="tabela1">
+                <thead>
+                    <tr class="dados">
+                        <th>Id</th>
+                        <th>UserId</th>
+                        <th>Title</th>
+                        <th>Body</th>
+                    </tr>
+                </thead>
+
+                <tbody id="corpo-tabela">
+                </tbody>
+            </table>
+            
+        </div>
+           
+        <div class="container">
+            <table class="tabela2">
+                <thead>
+                    <tr class="dados2">
+                        <th>Id</th>
+                        <th>UserId</th>
+                        <th>Title</th>
+                    </tr>
+                </thead>
+
+                <tbody id="corpo-tabela2">
+                    <tr class="dados2">
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container">
+            <table class="tabela3">
+                <thead>
+                    <tr class="dados3">
+                        <th>Id</th>
+                        <th>UserId</th>
+                        <th>Title</th>
+                    </tr>
+                </thead>
+
+                <tbody id="corpo-tabela3">
+                    <tr class="dados3">
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <span id="erro" class="display">Erro ao buscar dados. :( </span>
+
+    </main>
+</body>
+
+<footer class="rodape">
+    <div class="copyrodape">
+        <p>© Copyright 2021. Direitos reservados a Pedro Ferreira.</p>
+    </div>
+</footer>
+</html>
